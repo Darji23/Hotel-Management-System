@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Cygnus Hotels</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="hotel.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Sansita+Swashed&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,900;1,600&display=swap"
+    />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+      <div class="container">
+        <img src="images\logo.jpg" class="logo">
+        <div class="collapse navbar-collapse" id="navbarToggle">
+          <div class="navbar-nav mr-auto">
+            
+          </div>
+          <div class="navbar-nav">
+              <a class="nav-item nav-link" href="home.html">Home</a>
+              <a class="nav-item nav-link" href="hotel.html">Hotel</a>
+              <a class="nav-item nav-link" href="attraction.html">Attraction</a>
+              <a class="nav-item nav-link" href="gallery.html">Gallery</a>
+              <a class="nav-item nav-link" href="Booking.html">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <script>
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+    hamburger.addEventListener("click", mobliemmenu);
+
+    function mobliemmenu() {
+      hamburger.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    }
+
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0)
+    })
+  </script>
+
+
+  <section class="room wrapper2 top" id="room">
+    <div class="container">
+      <div class="heading">
+        <h5>OUR ROOMS</h5>
+        <h2>Fascinating rooms & suites </h2>
+      </div>
+      <div class="content flex mtop">
+        <div class="left grid2">
+          <div class="box">
+            <i class="fas fa-desktop"></i>
+            <p>Free Cost</p>
+            <h3>No booking fee</h3>
+          </div>
+          <div class="box">
+            <i class="fas fa-dollar-sign"></i>
+            <p>Free Cost</p>
+            <h3>Best rate guarantee</h3>
+          </div>
+          <div class="box">
+            <i class="fab fa-resolving"></i>
+            <p>Free Cost</p>
+            <h3>Reservations 24/7</h3>
+          </div>
+          <div class="box">
+            <i class="fal fa-alarm-clock"></i>
+            <p>Free Cost</p>
+            <h3>High-speed Wi-Fi</h3>
+          </div>
+          <div class="box">
+            <i class="fas fa-mug-hot"></i>
+            <p>Free Cost</p>
+            <h3>Free breakfast</h3>
+          </div>
+          <div class="box">
+            <i class="fas fa-user-tie"></i>
+            <p>Free Cost</p>
+            <h3>One person free</h3>
+          </div>
+        </div>
+        <div class="right">
+            <section class="map top">
+              <iframe src="https://www.google.com/maps/d/embed?mid=1klZFhZwUtph57IPkaZkO4190te5wVsI&ehbc=2E312F" width="640" height="480"></iframe>
+              </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+       
+    <div class="container-footer-all">
+     
+         <div class="container-body">
+
+             <div class="colum1">
+                 <h1>Information About Us</h1>
+
+                 <p>Cygnus Group of Hotels provide not only provides world-class facilities but also provide the best after services to you.We promise you to give the best of ours at your convinience.</p>
+
+             </div>
+
+             <div class="colum2">
+
+                 <h1>Social Media</h1>
+
+                 <div class="row">
+                     <img src="images\facebook.png">
+                     <label>Follow us on Facebook</label>
+                 </div>
+                 <div class="row">
+                     <img src="images\twitter.png">
+                     <label>Follow us on Twitter</label>
+                 </div>
+                 <div class="row">
+                     <img src="images\instagram.png">
+                     <label>Follow us on Instagram</label>
+                 </div>
+                 <div class="row">
+                     <img src="images\google-plus.png">
+                     <label>Follow us on Google Plus</label>
+                 </div>
+                 <div class="row">
+                     <img src="images\pinterest.png">
+                     <label>Follow us on pinterest</label>
+                 </div>
+
+
+             </div>
+
+             <div class="colum3">
+
+                 <h1>Contact Us</h1>
+
+                 <div class="row2">
+                     <img src="images\house.png">
+                     <label>Uma Chaar Rasta, 
+                     Waghodia Road
+                     Vadodara
+                     Gujarat</label>
+                 </div>
+
+                 <div class="row2">
+                     <img src="images\smartphone.png">
+                     <label>+91-123-456-xxxx</label>
+                 </div>
+
+                 <div class="row2">
+                     <img src="images\contact.png">
+                      <label>cygnushotels@gmail.com</label>
+                 </div>
+
+             </div>
+
+         </div>
+     
+     </div>
+     
+     <div class="container-footer">
+            <div class="footer">
+                 <div class="copyright">
+                     © 2017 All Rights Reserved | <a href="">KEYA&ABHISHEK</a>
+                 </div>
+
+                 <div class="information">
+                     <a href="">Company Information</a> | <a href="">Privacy Policy</a> | <a href="">Terms & Conditions</a>
+                 </div>
+             </div>
+
+         </div>
+     
+ </footer>
+</body>
+</html>
